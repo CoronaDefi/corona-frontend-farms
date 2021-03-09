@@ -2,7 +2,8 @@ import contracts from './contracts'
 import { FarmConfig, QuoteToken } from './types'
 
 const farms: FarmConfig[] = [
-{ // VIRUS-BNB
+  {
+    // VIRUS-BNB
     pid: 0,
     risk: 4,
     lpSymbol: 'VIRUS-BNB LP',
@@ -18,7 +19,8 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
-  { // VIRUS-BUSD
+  {
+    // VIRUS-BUSD
     pid: 1,
     risk: 4,
     lpSymbol: 'VIRUS-BUSD LP',
@@ -34,7 +36,8 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
-  { // VIRUS-CAKE
+  {
+    // VIRUS-CAKE
     pid: 2,
     risk: 5,
     lpSymbol: 'VIRUS-CAKE LP',
@@ -50,7 +53,8 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
   },
-  { // VIRUS-EGG
+  {
+    // VIRUS-EGG
     pid: 3,
     risk: 5,
     lpSymbol: 'VIRUS-EGG LP',
@@ -66,7 +70,8 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.EGG,
     quoteTokenAdresses: contracts.egg,
   },
-  { // VIRUS-BANANA
+  {
+    // VIRUS-BANANA
     pid: 4,
     risk: 5,
     lpSymbol: 'VIRUS-BANANA LP',
@@ -82,7 +87,8 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BANANA,
     quoteTokenAdresses: contracts.banana,
   },
-  { // BNB-BUSD
+  {
+    // BNB-BUSD
     pid: 5,
     risk: 3,
     lpSymbol: 'BNB-BUSD LP',

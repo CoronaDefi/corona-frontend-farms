@@ -62,7 +62,9 @@ const Home: React.FC = () => {
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'CoronaSwap')}
         </Heading>
-        <Text fontSize="12px">{TranslateString(999, 'The new money cluster on binance smart chain where tokens spread like covid')}</Text>
+        <Text fontSize="12px">
+          {TranslateString(999, 'The new money cluster on binance smart chain where tokens spread like covid')}
+        </Text>
         <Text>{TranslateString(999, 'Stay safu')}</Text>
       </Hero>
       <div>
