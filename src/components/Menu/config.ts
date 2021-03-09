@@ -16,7 +16,8 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.pancakeswap.finance/#/add/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c/0x0c34C1Ab7b0D7A6e47500e579102E8840bf334B4',
+        href:
+          'https://exchange.pancakeswap.finance/#/add/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c/0x0c34C1Ab7b0D7A6e47500e579102E8840bf334B4',
       },
     ],
   },
@@ -77,7 +78,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Blog',
-        href: 'https://medium.com/coronadefi',
+        href: 'https://coronadefi.medium.com',
       },
     ],
   },
