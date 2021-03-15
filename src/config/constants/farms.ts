@@ -67,8 +67,8 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0x0c34C1Ab7b0D7A6e47500e579102E8840bf334B4',
     },
-    quoteTokenSymbol: QuoteToken.EGG,
-    quoteTokenAdresses: contracts.egg,
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
   },
   {
     // VIRUS-BANANA
